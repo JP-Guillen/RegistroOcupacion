@@ -1,4 +1,4 @@
-package edu.ucne.holamundo.ui.theme
+package edu.ucne.registroocupacion.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

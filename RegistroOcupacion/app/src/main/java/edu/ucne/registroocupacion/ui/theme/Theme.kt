@@ -1,4 +1,4 @@
-package edu.ucne.holamundo.ui.theme
+package edu.ucne.registroocupacion.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -34,7 +34,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun HolaMundoTheme(
+fun RegistroOcupacionTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,
