@@ -1,10 +1,13 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
+    id("com.google.devtools.ksp")
+    id("com.google.dagger.hilt.android")
+    alias(libs.plugins.kotlin.serialization)
 }
 
 android {
-    namespace = "edu.ucne.holamundo"
+    namespace = "edu.ucne.registroocupacion"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -12,7 +15,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "edu.ucne.holamundo"
+        applicationId = "edu.ucne.registroocupacion"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -55,4 +58,21 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
+
+    //navigation
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.kotlin.serialization.json)
+
+    //room
+    implementation(libs.androidx.room.runtime)
+    ksp(libs.androidx.room.compiler)
+    annotationProcessor("androidx.room:room-compiler:2.7.2")
+    implementation(libs.androidx.room.ktx)
+    implementation(libs.androidx.compose.material.icons.extended)
+
+    //hilt
+    implementation(libs.hilt.android)
+    ksp(libs.hilt.android.compiler)
+    implementation(libs.androidx.hilt.navigation.compose)
+
 }
