@@ -6,7 +6,8 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.navigation.compose.rememberNavController
 import dagger.hilt.android.AndroidEntryPoint
-import edu.ucne.registroocupacion.presentation.ocupacion.navigation.OcupacionNavHost
+import edu.ucne.registroocupacion.presentation.Navigation.OcupacionNavHost
+
 import edu.ucne.registroocupacion.ui.theme.RegistroOcupacionTheme
 
 @AndroidEntryPoint
@@ -17,7 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             RegistroOcupacionTheme {
                 val navHostController = rememberNavController()
-                OcupacionNavHost(navController = navHostController)
+                OcupacionNavHost(navHostController = navHostController)
             }
         }
     }
