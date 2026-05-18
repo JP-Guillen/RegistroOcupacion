@@ -1,6 +1,6 @@
-package edu.ucne.registroocupacion.domain.usecases
+package edu.ucne.registroocupacion.domain.Ocupaciones.usecases
 
-import edu.ucne.registroocupacion.domain.repository.OcupacionRepository
+import edu.ucne.registroocupacion.domain.Ocupaciones.repository.OcupacionRepository
 import javax.inject.Inject
 
 class ValidateOcupacionUseCase @Inject constructor(
