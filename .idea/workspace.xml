@@ -9,8 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b27e55a6-bf89-4066-9e75-dedf28a3109f" name="Changes" comment="Modificando workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
+    <list default="true" id="b27e55a6-bf89-4066-9e75-dedf28a3109f" name="Changes" comment="Archivos extras">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -329,14 +328,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1778092854368</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Agrega Dependencias necesarias.">
-      <option name="closed" value="true" />
-      <created>1779083397279</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1779083397279</updated>
     </task>
     <task id="LOCAL-00005" summary="Crea Delete Empleado Use Case">
       <option name="closed" value="true" />
@@ -722,11 +713,18 @@
       <option name="project" value="LOCAL" />
       <updated>1779085960407</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Archivos extras">
+      <option name="closed" value="true" />
+      <created>1779088124761</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1779088124761</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creando List Empleado Screen." />
     <MESSAGE value="Creando List Empleado Ui Event." />
     <MESSAGE value="Creando List Empleado Ui State." />
     <MESSAGE value="Creando List Empleado View Model." />
@@ -751,7 +749,8 @@
     <MESSAGE value="Creando ValidateEmpleadoUseCase.kt" />
     <MESSAGE value="Creando ValidateEmpleadoUseCaseTest.kt" />
     <MESSAGE value="Modificando workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificando workspace.xml" />
+    <MESSAGE value="Archivos extras" />
+    <option name="LAST_COMMIT_MESSAGE" value="Archivos extras" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
