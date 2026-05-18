@@ -2,16 +2,20 @@ package edu.ucne.registroocupacion.data.db
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
+import edu.ucne.registroocupacion.data.local.dao.EmpleadoDao
 import edu.ucne.registroocupacion.data.local.dao.OcupacionDao
+import edu.ucne.registroocupacion.data.local.entities.EmpleadoEntity
 import edu.ucne.registroocupacion.data.local.entities.OcupacionEntity
 
 @Database(
     entities = [
-        OcupacionEntity::class
+        OcupacionEntity::class,
+        EmpleadoEntity::class
     ],
-    version = 1,
+    version = 2,
     exportSchema = false
 )
 abstract class OcupacionDb: RoomDatabase(){
     abstract fun ocupacionDao(): OcupacionDao
+    abstract fun EmpleadoDao(): EmpleadoDao
 }
