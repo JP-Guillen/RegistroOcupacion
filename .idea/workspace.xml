@@ -9,7 +9,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b27e55a6-bf89-4066-9e75-dedf28a3109f" name="Changes" comment="Modificando workspace.xml" />
+    <list default="true" id="b27e55a6-bf89-4066-9e75-dedf28a3109f" name="Changes" comment="Modificando workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +21,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[PhysicalDevice::serial=RFCNA0RMH5L]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -83,29 +86,30 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Android App.app.executor": "Run",
-    "Gradle.DeleteEmpleadoUseCaseTest.executor": "Run",
-    "Gradle.EditEmpleadoViewModelTest.executor": "Run",
-    "Gradle.EmpleadoRepositoryImplTest.executor": "Run",
-    "Gradle.GetEmpleadoUseCaseTest.executor": "Run",
-    "Gradle.ListEmpleadoViewModelTest.executor": "Run",
-    "Gradle.ObserveEmpleadoUseCaseTest.executor": "Run",
-    "Gradle.Tests in 'edu.ucne.registroocupacion'.executor": "Run",
-    "Gradle.UpsertEmpleadoUseCaseTest.executor": "Run",
-    "Gradle.ValidateEmpleadoUseCaseTest.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "TareaEmpleado",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DeleteEmpleadoUseCaseTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EditEmpleadoViewModelTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EmpleadoRepositoryImplTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.GetEmpleadoUseCaseTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ListEmpleadoViewModelTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ObserveEmpleadoUseCaseTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Tests in 'edu.ucne.registroocupacion'.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UpsertEmpleadoUseCaseTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ValidateEmpleadoUseCaseTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;TareaEmpleado&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Android App.app">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="RegistroOcupacion.app" />
@@ -325,14 +329,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1778092854368</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Agrega los imports necesarios para la clase Empleado">
-      <option name="closed" value="true" />
-      <created>1779083329228</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1779083329228</updated>
     </task>
     <task id="LOCAL-00004" summary="Agrega Dependencias necesarias.">
       <option name="closed" value="true" />
@@ -718,7 +714,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779085870625</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Modificando workspace.xml">
+      <option name="closed" value="true" />
+      <created>1779085960406</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1779085960407</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
