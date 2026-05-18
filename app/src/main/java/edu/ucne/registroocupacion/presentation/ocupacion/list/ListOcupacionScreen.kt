@@ -6,6 +6,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Delete
+import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -14,10 +15,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import edu.ucne.registroocupacion.domain.model.Ocupacion
+import edu.ucne.registroocupacion.domain.Ocupaciones.model.Ocupacion
 
 @Composable
 fun OcupacionListScreen(
+    onDrawer: () -> Unit,
     goToOcupacion: (Int) -> Unit,
     createOcupacion: () -> Unit,
     viewModel: ListOcupacionViewModel = hiltViewModel()
@@ -40,6 +42,7 @@ fun OcupacionListScreen(
 
     OcupacionListBody(
         state = state,
+        onDrawer = onDrawer,
         onEvent = { event ->
             when (event) {
                 is ListOcupacionUiEvent.Edit -> viewModel.onEvent(event)
@@ -54,6 +57,7 @@ fun OcupacionListScreen(
 @Composable
 private fun OcupacionListBody(
     state: ListOcupacionUiState,
+    onDrawer: () -> Unit,
     onEvent: (ListOcupacionUiEvent) -> Unit
 ) {
     val snackbarHostState = remember { SnackbarHostState() }
@@ -68,7 +72,12 @@ private fun OcupacionListBody(
         snackbarHost = { SnackbarHost(hostState = snackbarHostState) },
         topBar = {
             CenterAlignedTopAppBar(
-                title = { Text("Listado de Ocupaciones") }
+                title = { Text("Listado de Ocupaciones") },
+                navigationIcon = {
+                    IconButton(onClick = onDrawer) {
+                        Icon(imageVector = Icons.Default.Menu, contentDescription = "Menu")
+                    }
+                }
             )
         },
         floatingActionButton = {
@@ -146,6 +155,7 @@ fun OcupacionListPreview() {
                     Ocupacion(2, "Analista de Datos", 75000.0)
                 )
             ),
+            onDrawer = {},
             onEvent = {}
         )
     }
