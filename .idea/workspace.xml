@@ -9,27 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b27e55a6-bf89-4066-9e75-dedf28a3109f" name="Changes" comment="Modificando el Import List Ocupacion View Model.">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/domain/Empleados/usescases/ObserveEmpleadoUseCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/domain/Empleados/usescases/UpsertEmpleadoUseCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/domain/Empleados/usescases/ValidateEmpleadoUseCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/navigation/OcupacionNavHost.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/edu/ucne/registroocupacion/domain/usecases/ObserveEmpleadoUseCaseTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/edu/ucne/registroocupacion/domain/usecases/UpsertEmpleadoUseCaseTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/edu/ucne/registroocupacion/domain/usecases/ValidateEmpleadoUseCaseTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/data/db/OcupacionDb.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/data/db/OcupacionDb.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/data/mapper/OcupacionMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/data/mapper/OcupacionMapper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/data/repository/OcupacionRespositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/data/repository/OcupacionRespositoryImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/domain/model/Ocupacion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/domain/Ocupaciones/model/Ocupacion.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/domain/repository/OcupacionRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/domain/Ocupaciones/repository/OcupacionRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/domain/usecases/ObserveOcupacionUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/domain/Ocupaciones/usecases/ObserveOcupacionUseCase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/domain/usecases/UpsertocupacionUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/domain/Ocupaciones/usecases/UpsertocupacionUseCase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/domain/usecases/ValidateOcupacionUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/domain/Ocupaciones/usecases/ValidateOcupacionUseCase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/presentation/ocupacion/navigation/OcupacionNavHost.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/presentation/ocupacion/navigation/Screen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/ucne/registroocupacion/navigation/Screen.kt" afterDir="false" />
-    </list>
+    <list default="true" id="b27e55a6-bf89-4066-9e75-dedf28a3109f" name="Changes" comment="Modificando workspace.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -346,22 +326,6 @@
       <option name="presentableId" value="Default" />
       <updated>1778092854368</updated>
     </task>
-    <task id="LOCAL-00001" summary="Moviendo los archivos a la carpeta correctas">
-      <option name="closed" value="true" />
-      <created>1778718798849</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1778718798849</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Moviendo los archivos a la carpeta correctas">
-      <option name="closed" value="true" />
-      <created>1778718894386</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1778718894386</updated>
-    </task>
     <task id="LOCAL-00003" summary="Agrega los imports necesarios para la clase Empleado">
       <option name="closed" value="true" />
       <created>1779083329228</created>
@@ -618,27 +582,146 @@
       <option name="project" value="LOCAL" />
       <updated>1779084880312</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Modificando Main Activity.">
+      <option name="closed" value="true" />
+      <created>1779085091159</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1779085091159</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Creando Observe empleado Use Case.">
+      <option name="closed" value="true" />
+      <created>1779085119588</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1779085119588</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Creando Observe empleado Use Case Test.">
+      <option name="closed" value="true" />
+      <created>1779085136413</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1779085136413</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Moviendo Observe Ocupacion Use Case.">
+      <option name="closed" value="true" />
+      <created>1779085176683</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1779085176683</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Moviendo Ocupacion.">
+      <option name="closed" value="true" />
+      <created>1779085303726</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1779085303727</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Modificando OcupacionDb con lo necesario.">
+      <option name="closed" value="true" />
+      <created>1779085344399</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1779085344399</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Modificando los Imports de Ocupacion Mapper.">
+      <option name="closed" value="true" />
+      <created>1779085432230</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1779085432230</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Creando OcupacionNavHost.kt">
+      <option name="closed" value="true" />
+      <created>1779085457602</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1779085457602</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Creando OcupacionNavHost.">
+      <option name="closed" value="true" />
+      <created>1779085491300</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1779085491300</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Moviendo los archivos OcupacionRepository.kt, UpsertocupacionUseCase.kt y ValidateOcupacionUseCase.kt">
+      <option name="closed" value="true" />
+      <created>1779085592470</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1779085592470</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Modificando Implement OcupacionRespositoryImpl.kt">
+      <option name="closed" value="true" />
+      <created>1779085656928</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1779085656928</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Modificando lo necesario en Screen.kt">
+      <option name="closed" value="true" />
+      <created>1779085721265</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1779085721265</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Creando UpsertEmpleadoUseCase.kt">
+      <option name="closed" value="true" />
+      <created>1779085788660</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1779085788660</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Creando UpsertEmpleadoUseCase Test.kt">
+      <option name="closed" value="true" />
+      <created>1779085805129</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1779085805129</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Creando ValidateEmpleadoUseCase.kt">
+      <option name="closed" value="true" />
+      <created>1779085829699</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1779085829699</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Creando ValidateEmpleadoUseCaseTest.kt">
+      <option name="closed" value="true" />
+      <created>1779085843128</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1779085843131</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Modificando workspace.xml">
+      <option name="closed" value="true" />
+      <created>1779085870625</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1779085870625</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Crea el Edit Empleado Screen." />
-    <MESSAGE value="Crea el Edit Empleado Ui Event." />
-    <MESSAGE value="Crea el Edit Empleado Ui state." />
-    <MESSAGE value="Crea el Edit Empleado View model." />
-    <MESSAGE value="Crea el Edit Empleado View model Test." />
-    <MESSAGE value="Elimina comentario de Edit Ocupacion Screen." />
-    <MESSAGE value="Modifica los Imports del Edit Ocupacion View Model." />
-    <MESSAGE value="Crea modelo Empleado." />
-    <MESSAGE value="Crea EmpleadoDao." />
-    <MESSAGE value="Crea EmpleadoEntity." />
-    <MESSAGE value="Crea EmpleadoMapper." />
-    <MESSAGE value="Crea EmpleadoRepository." />
-    <MESSAGE value="Crea Empleado Repository Impl." />
-    <MESSAGE value="Crea Empleado Repository Impl test." />
-    <MESSAGE value="Crea Get Empleado Use Case." />
-    <MESSAGE value="Crea Get Empleado Use Case Test." />
-    <MESSAGE value="Moviendo Get Ocupacion Use Case" />
     <MESSAGE value="Creando List Empleado Screen." />
     <MESSAGE value="Creando List Empleado Ui Event." />
     <MESSAGE value="Creando List Empleado Ui State." />
@@ -647,7 +730,24 @@
     <MESSAGE value="Modificando List Ocupacion Screen, agregando nuevas funciones." />
     <MESSAGE value="Modificando el Import List Ocupacion Ui State" />
     <MESSAGE value="Modificando el Import List Ocupacion View Model." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificando el Import List Ocupacion View Model." />
+    <MESSAGE value="Modificando Main Activity." />
+    <MESSAGE value="Creando Observe empleado Use Case." />
+    <MESSAGE value="Creando Observe empleado Use Case Test." />
+    <MESSAGE value="Moviendo Observe Ocupacion Use Case." />
+    <MESSAGE value="Moviendo Ocupacion." />
+    <MESSAGE value="Modificando OcupacionDb con lo necesario." />
+    <MESSAGE value="Modificando los Imports de Ocupacion Mapper." />
+    <MESSAGE value="Creando OcupacionNavHost.kt" />
+    <MESSAGE value="Creando OcupacionNavHost." />
+    <MESSAGE value="Moviendo los archivos OcupacionRepository.kt, UpsertocupacionUseCase.kt y ValidateOcupacionUseCase.kt" />
+    <MESSAGE value="Modificando Implement OcupacionRespositoryImpl.kt" />
+    <MESSAGE value="Modificando lo necesario en Screen.kt" />
+    <MESSAGE value="Creando UpsertEmpleadoUseCase.kt" />
+    <MESSAGE value="Creando UpsertEmpleadoUseCase Test.kt" />
+    <MESSAGE value="Creando ValidateEmpleadoUseCase.kt" />
+    <MESSAGE value="Creando ValidateEmpleadoUseCaseTest.kt" />
+    <MESSAGE value="Modificando workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificando workspace.xml" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
