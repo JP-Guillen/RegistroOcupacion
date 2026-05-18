@@ -3,11 +3,11 @@ package edu.ucne.registroocupacion.presentation.ocupacion.edit
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
-import edu.ucne.registroocupacion.domain.model.Ocupacion
-import edu.ucne.registroocupacion.domain.usecases.DeleteOcupacionUseCase
-import edu.ucne.registroocupacion.domain.usecases.GetOcupacionUseCase
-import edu.ucne.registroocupacion.domain.usecases.UpsertocupacionUseCase
-import edu.ucne.registroocupacion.domain.usecases.ValidateOcupacionUseCase
+import edu.ucne.registroocupacion.domain.Ocupaciones.model.Ocupacion
+import edu.ucne.registroocupacion.domain.Ocupaciones.usecases.DeleteOcupacionUseCase
+import edu.ucne.registroocupacion.domain.Ocupaciones.usecases.GetOcupacionUseCase
+import edu.ucne.registroocupacion.domain.Ocupaciones.usecases.UpsertocupacionUseCase
+import edu.ucne.registroocupacion.domain.Ocupaciones.usecases.ValidateOcupacionUseCase
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
