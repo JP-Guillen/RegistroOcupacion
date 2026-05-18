@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b27e55a6-bf89-4066-9e75-dedf28a3109f" name="Changes" comment="Archivos extras" />
+    <list default="true" id="b27e55a6-bf89-4066-9e75-dedf28a3109f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +20,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[PhysicalDevice::serial=RFCNA0RMH5L]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -326,14 +328,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1778092854368</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Crea Test de Delete Empleado Use Case">
-      <option name="closed" value="true" />
-      <created>1779083450615</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1779083450615</updated>
     </task>
     <task id="LOCAL-00007" summary="Modifica import de delete  de OcupacionUsecase">
       <option name="closed" value="true" />
@@ -719,11 +713,18 @@
       <option name="project" value="LOCAL" />
       <updated>1779088794740</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Modificar workspace.xml">
+      <option name="closed" value="true" />
+      <created>1779089391586</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1779089391586</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creando List Empleado Ui Event." />
     <MESSAGE value="Creando List Empleado Ui State." />
     <MESSAGE value="Creando List Empleado View Model." />
     <MESSAGE value="Creando List Empleado View Model Test." />
@@ -748,7 +749,8 @@
     <MESSAGE value="Creando ValidateEmpleadoUseCaseTest.kt" />
     <MESSAGE value="Modificando workspace.xml" />
     <MESSAGE value="Archivos extras" />
-    <option name="LAST_COMMIT_MESSAGE" value="Archivos extras" />
+    <MESSAGE value="Modificar workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificar workspace.xml" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
