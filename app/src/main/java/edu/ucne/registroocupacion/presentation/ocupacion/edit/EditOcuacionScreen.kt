@@ -29,7 +29,7 @@ fun EditOcupacionScreen(
         viewModel.onEvent(EditOcupacionUIEvent.Load(ocupacionId ?: 0))
     }
 
-    // Efecto para navegar hacia atrás cuando se guarda o elimina
+
     if (state.saved || state.deleted) {
         LaunchedEffect(Unit) {
             onNavigateBack()

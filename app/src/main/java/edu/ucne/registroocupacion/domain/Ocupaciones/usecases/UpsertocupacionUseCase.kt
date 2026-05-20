@@ -1,7 +1,7 @@
-package edu.ucne.registroocupacion.domain.usecases
+package edu.ucne.registroocupacion.domain.Ocupaciones.usecases
 
-import edu.ucne.registroocupacion.domain.model.Ocupacion
-import edu.ucne.registroocupacion.domain.repository.OcupacionRepository
+import edu.ucne.registroocupacion.domain.Ocupaciones.model.Ocupacion
+import edu.ucne.registroocupacion.domain.Ocupaciones.repository.OcupacionRepository
 import javax.inject.Inject
 
 class UpsertocupacionUseCase @Inject constructor(
