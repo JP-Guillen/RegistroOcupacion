@@ -38,6 +38,9 @@ fun EditEmpleadoScreen(
     var showDatePicker by remember { mutableStateOf(false) }
     val datePickerState = rememberDatePickerState()
     var expandedSexo by remember { mutableStateOf(false) }
+    var sueldoText by remember(state.empleadoId) {
+        mutableStateOf(if (state.sueldo == 0.0) "" else state.sueldo.toString())
+    }
 
     Scaffold(
         topBar = {
@@ -140,8 +143,9 @@ fun EditEmpleadoScreen(
             Spacer(Modifier.height(12.dp))
 
             OutlinedTextField(
-                value = state.sueldo?.toString() ?: "",
+                value = sueldoText,
                 onValueChange = { texto ->
+                    sueldoText = texto
                     val valorDouble = texto.toDoubleOrNull() ?: 0.0
                     viewModel.onEvent(EditEmpleadoUIEvent.SueldoChanged(valorDouble))
                 },
