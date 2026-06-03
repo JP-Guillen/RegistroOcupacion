@@ -19,7 +19,7 @@ import edu.ucne.registroocupacion.domain.Empleados.model.Empleado
 import java.time.LocalDate
 
 @Composable
-fun EmpleadoListScreen(
+fun ListEmpleadoScreen(
     onDrawer: () -> Unit,
     goToEmpleado: (Int) -> Unit,
     createEmpleado: () -> Unit,
